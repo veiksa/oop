@@ -27,12 +27,11 @@ public class Liitmine implements Kontrollimine, KasutajaVastus {
 
     @Override
     public String toString() {
-        return "arv1=" + arv1 +
-                ", arv2=" + arv2;
+        return arv1 + " + " + arv2;
     }
 
-    public int Summeerimine(int arv1, int arv2){
-        return arv1 + arv2;
+    public int Summeerimine(){
+        return this.arv1 + this.arv2;
 
     }
 

@@ -32,11 +32,10 @@ public class Lahutamine {
 
     @Override
     public String toString() {
-        return "arv1=" + arv1 +
-                ", arv2=" + arv2;
+        return arv1 + " - " + arv2;
     }
 
-    public int Lahutustehe(int arv1, int arv2){
+    public int Lahutustehe(){
         return arv1 - arv2;
 
     }
