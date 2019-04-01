@@ -80,7 +80,7 @@ public class Peameetod {
         System.out.println("Õigesti vastamisi: " + oigedVastamised);
         System.out.println("Valesti vastamisi: " + valedVastamised);
         System.out.println();
-        System.out.println("aega kulus " + vastamiseKestvus);
+        System.out.println("aega kulus " + vastamiseKestvus + " minutit.");
 
 
 
